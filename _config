@@ -1,0 +1,22 @@
+
+Target: armv6hl-suse-linux
+
+Required: qemu-linux-user
+Required: qemu-tools
+Required: gptfdisk
+Required: kpartx
+Required: dosfstools
+Required: python3-kiwi_crossprepare_plugin
+
+%ifarch x86_64
+Required: build-initvm-x86_64
+%endif
+HostOnly: build-init-x86_64
+
+Support: !rpmlint-Factory
+Support: !rpmlint-Factory-strict
+
+# only needed as workaround for chroot builds:
+#Required: kmod
+#Required: kernel-default
+

@@ -1,0 +1,10 @@
+<pbuild>
+  <preset name="armv6l" default>
+    <config>sl15.5</config>
+    <hostrepo>https://download.opensuse.org/repositories/Geckito:/SDK:/Main/openSUSE_Factory</hostrepo>
+    <hostrepo>https://download.opensuse.org/tumbleweed/repo/oss</hostrepo>
+    <repo>https://download.opensuse.org/repositories/Geckito:/SDK:/Main/openSUSE_Factory</repo>
+    <repo>https://download.opensuse.org/ports/armv6hl/tumbleweed/repo/oss</repo>
+    <arch>armv6hl</arch>
+  </preset>
+</pbuild>
