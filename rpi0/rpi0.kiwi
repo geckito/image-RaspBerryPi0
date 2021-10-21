@@ -51,6 +51,8 @@
     <package name="geckito-setup"/>
 
     <package name="grub2"/>
+    <package name="grub2-arm-efi"/>
+    <package name="grub2-branding-openSUSE"/>
     <package name="kmod"/>
     <package name="net-tools"/>
     <package name="libudev1"/>
